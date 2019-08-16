@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+jupyter = "*"
+mypy = "*"
+flake8 = "*"
+autopep8 = "*"
+
+[packages]
+tqdm = "*"
+aiodl = {git = "https://github.com/hrsma2i/aiodl.git"}
+
+[requires]
+python_version = "3.6"
