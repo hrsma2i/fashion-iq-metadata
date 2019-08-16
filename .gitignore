@@ -127,3 +127,4 @@ dmypy.json
 
 # project
 /raw/image_url/*_images
+/raw/image_url/*_pre.tsv
