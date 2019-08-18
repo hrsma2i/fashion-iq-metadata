@@ -3,8 +3,6 @@ raw/images
 raw/resized_images
 raw/image_url/*_pre.tsv
 raw/fashion-iq/*
-main/*
-!main/labels
 tiny/*
 
 # Byte-compiled / optimized / DLL files
