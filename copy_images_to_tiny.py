@@ -1,7 +1,6 @@
 import os
 import shutil
 from pathlib import Path
-import argparse
 
 import pandas as pd
 from tqdm import tqdm
@@ -13,10 +12,10 @@ DATASET_ROOT = os.environ['DATASET_ROOT']
 def copy_images(category, mode):
     main_dir = Path(DATASET_ROOT)/'main'
     tiny_dir = Path(DATASET_ROOT)/'tiny'
-    main_img_dir = main_dir/'{}_images'.format(category)
-    tiny_img_dir = tiny_dir/'{}_images'.format(category)
-    tiny_lbl_dir = tiny_dir/'labels'
-    json_file = tiny_lbl_dir/'cap.{}.{}.json'.format(category, mode)
+    main_img_dir = main_dir/'resized_images'
+    tiny_img_dir = tiny_dir/'resized_images'
+    tiny_cap_dir = tiny_dir/'captions'
+    json_file = tiny_cap_dir/'cap.{}.{}.json'.format(category, mode)
     df = pd.read_json(json_file)
     img_names = df['candidate']
     if 'target' in df.columns:
