@@ -6,6 +6,7 @@ raw/fashion-iq/*
 !raw/fashion-iq/image_splits
 main/*
 !main/labels
+tiny/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

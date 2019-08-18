@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "199d6982377e013d943543be8353c7eb2ce7da3e70e8a7ea22507b61d5c035ca"
+            "sha256": "5d467f51d2625db315a8a491bb98a8d822452b225dacd180eb55eb858ba14797"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -18,7 +18,11 @@
     "default": {
         "aiodl": {
             "git": "https://github.com/hrsma2i/aiodl.git",
-            "ref": "91c3eeadc423f586c954ed3230251559afc82bb6"
+            "ref": "9c408a61e705ed5eec76758fc2b81d2d726068da"
+        },
+        "mljsp": {
+            "git": "https://github.com/hrsma2i/ml_json_processor.git",
+            "ref": "523068e39db5ad9ec109ba62424c43c4d7cd2d0d"
         },
         "tqdm": {
             "hashes": [
@@ -340,7 +344,8 @@
         },
         "pyrsistent": {
             "hashes": [
-                "sha256:34b47fa169d6006b32e99d4b3c4031f155e6e68ebcc107d6454852e8e0ee6533"
+                "sha256:34b47fa169d6006b32e99d4b3c4031f155e6e68ebcc107d6454852e8e0ee6533",
+                "sha256:6e113db26b89abcf94fd1afef539d8d1de3a0bac2ad7759bcc9ef2f8aff28cd3"
             ],
             "version": "==0.15.4"
         },
@@ -383,10 +388,10 @@
         },
         "qtconsole": {
             "hashes": [
-                "sha256:6a85456af7a98b0f554d140922b7b6a219757b039adb2b95e847cf115eaa20ae",
-                "sha256:767eb9ec3f9943bc84270198b5ff95d2d86d68d6b57792fafa4df4fc6b16cd7c"
+                "sha256:0877c4c66cb4f102dc796dc63a08ddfa55a981c36a83690b45dee819d15c1a38",
+                "sha256:84b43391ad0a54d91a628dbcd95562651052ea20457a75af85a66fea35397950"
             ],
-            "version": "==4.5.2"
+            "version": "==4.5.3"
         },
         "send2trash": {
             "hashes": [
