@@ -16,3 +16,10 @@ Excute the following script while there are images failed to download.
 ```sh
 ./make_main.sh
 ```
+
+```sh
+git clone https://github.com/XiaoxiaoGuo/fashion-iq.git raw/fashion-iq
+rm -rf raw/fashion-iq/.git
+mkdir labels
+cd labels
+```

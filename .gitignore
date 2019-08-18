@@ -1,7 +1,11 @@
 # project
-/raw/*_images
-/raw/image_url/*_pre.tsv
-/main/*
+raw/*_images
+raw/image_url/*_pre.tsv
+raw/fashion-iq/*
+!raw/fashion-iq/caption
+!raw/fashion-iq/image_splits
+main/*
+!main/labels
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
