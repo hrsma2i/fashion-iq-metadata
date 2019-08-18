@@ -11,3 +11,7 @@ Excute the following script while there are images failed to download.
 ```sh
 ./retry_dl_img.sh
 ```
+
+```sh
+./make_main.sh
+```

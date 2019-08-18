@@ -1,6 +1,7 @@
 # project
 /raw/*_images
 /raw/image_url/*_pre.tsv
+/main/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
