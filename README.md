@@ -21,8 +21,13 @@ rm -rf raw/fashion-iq/.git
 python raw/fashion-iq/start_kit/resize_images.py \
     --image_dir raw/images \
     --output_dir raw/resized_images
+python build_vocab.py
 ```
 
 ```sh
 ./make_main.sh
+```
+
+```sh
+./make_tiny.sh
 ```

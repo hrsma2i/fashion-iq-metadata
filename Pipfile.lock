@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "af43a342502c6195476b57aedc71938d29986a05dcb645d5564e91b352f0a775"
+            "sha256": "f96e5ad3a8bff8bd3f38adf30408bfe74f7fdbbf276f181fef80da32c9fd5c8e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -31,6 +31,20 @@
         "mljsp": {
             "git": "https://github.com/hrsma2i/ml_json_processor.git",
             "ref": "523068e39db5ad9ec109ba62424c43c4d7cd2d0d"
+        },
+        "nltk": {
+            "hashes": [
+                "sha256:764c20a5f8532a681c261af3c7d1a54768a35df6f3603df75e615cbd34e47cb5"
+            ],
+            "index": "pypi",
+            "version": "==3.4.4"
+        },
+        "six": {
+            "hashes": [
+                "sha256:3350809f0555b11f552448330d0b52d5f24c91a322ea4a15ef22629740f3761c",
+                "sha256:d16a0141ec1a18405cd4ce8b4613101da75da0e9a7aec5bdd4fa804d0e0eba73"
+            ],
+            "version": "==1.12.0"
         },
         "tqdm": {
             "hashes": [

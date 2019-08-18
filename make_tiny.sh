@@ -8,6 +8,7 @@ do
             -s 12345 \
             -o tiny/captions/cap.${category}.${mode}.json
     done
+    cp main/captions/dict* tiny/captions
 done
 
 python copy_images_to_tiny.py
