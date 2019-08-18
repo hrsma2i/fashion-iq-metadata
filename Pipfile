@@ -13,6 +13,7 @@ autopep8 = "*"
 tqdm = "*"
 aiodl = {git = "https://github.com/hrsma2i/aiodl.git"}
 mljsp = {git = "https://github.com/hrsma2i/ml_json_processor.git"}
+joblib = "*"
 
 [requires]
 python_version = "3.6"

@@ -1,9 +1,8 @@
 # project
-raw/*_images
+raw/images
+raw/resized_images
 raw/image_url/*_pre.tsv
 raw/fashion-iq/*
-!raw/fashion-iq/caption
-!raw/fashion-iq/image_splits
 main/*
 !main/labels
 tiny/*

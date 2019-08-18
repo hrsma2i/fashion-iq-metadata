@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "5d467f51d2625db315a8a491bb98a8d822452b225dacd180eb55eb858ba14797"
+            "sha256": "af43a342502c6195476b57aedc71938d29986a05dcb645d5564e91b352f0a775"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -19,6 +19,14 @@
         "aiodl": {
             "git": "https://github.com/hrsma2i/aiodl.git",
             "ref": "9c408a61e705ed5eec76758fc2b81d2d726068da"
+        },
+        "joblib": {
+            "hashes": [
+                "sha256:21e0c34a69ad7fde4f2b1f3402290e9ec46f545f15f1541c582edfe05d87b63a",
+                "sha256:315d6b19643ec4afd4c41c671f9f2d65ea9d787da093487a81ead7b0bac94524"
+            ],
+            "index": "pypi",
+            "version": "==0.13.2"
         },
         "mljsp": {
             "git": "https://github.com/hrsma2i/ml_json_processor.git",
@@ -344,8 +352,7 @@
         },
         "pyrsistent": {
             "hashes": [
-                "sha256:34b47fa169d6006b32e99d4b3c4031f155e6e68ebcc107d6454852e8e0ee6533",
-                "sha256:6e113db26b89abcf94fd1afef539d8d1de3a0bac2ad7759bcc9ef2f8aff28cd3"
+                "sha256:34b47fa169d6006b32e99d4b3c4031f155e6e68ebcc107d6454852e8e0ee6533"
             ],
             "version": "==0.15.4"
         },
