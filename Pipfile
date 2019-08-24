@@ -8,6 +8,7 @@ jupyter = "*"
 mypy = "*"
 flake8 = "*"
 autopep8 = "*"
+black = "*"
 
 [packages]
 tqdm = "*"
@@ -18,3 +19,6 @@ nltk = "*"
 
 [requires]
 python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true
